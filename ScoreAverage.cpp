@@ -1,9 +1,7 @@
-// ScoreAverage.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 /* File Name: ScoreAverage.cpp
 * Programmer: Luis Huerta
-* Requirements: 
-* Ask for three scores and display the average.
+* Date: September 18, 2025
+* Requirements: Get the average of five different variables.
 */
 
 #include <iostream>
@@ -11,17 +9,17 @@ using namespace std;
 
 int main()
 {
-	int score1, score2, score3, sum;
-	double average;
-		cout << "Please enter your first score:";
-		cin >> score1;
-		cout << "Please enter your second score:";
-		cin >> score2; 
-		cout << "Please enter your third score:";
-		cin >> score3;
-		sum = score1 + score2 + score3;
-		average = sum/ 3.0;
+	int score1 = 28;
+	int score2 = 32;
+	int score3 = 37;
+	int score4 = 24;
+	int score5 = 33;
 
-		cout << "Your average is " << average; 
+	int sum = score1 + score2 + score3 + score4 + score5;
+	double average = sum/ 5.0;
+
+	cout << "Your average is " << average; 
+
+		return 0;
 }
 
